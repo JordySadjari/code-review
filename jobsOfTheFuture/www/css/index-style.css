@@ -1,0 +1,123 @@
+/* fonts */
+body {
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* text colors */
+h1 {
+  color: #fff;
+  font-weight: bold;
+}
+
+p {
+  color: #fff;
+}
+
+/* navbar */
+.box {
+  height: 20px;
+  width: 100%;
+  background-color: #BA000D;
+  padding-top: 20px;
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #F44336;
+}
+
+.nav button {
+  margin-top: 2px;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #F44336;
+    border-color: #F44336;
+    float: right;
+}
+
+.btn-default:hover {
+    color: #fff;
+    background-color: #F44336;
+    border-color: #F44336;
+    float: right;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none;
+    outline-offset: none;
+    box-shadow: none;
+}
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    color: #fff;
+    background-color: #F44336;
+    border-color: #F44336;
+    float: right;
+}
+
+
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: #fff;
+    background-color: #F44336;
+    border-color: #F44336;
+}
+
+.btn-default.focus, .btn-default:focus {
+    color: #fff;
+    background-color: #F44336;
+    border-color: #F44336;
+}
+
+/* sidebar */
+.user {
+  height: 325px;
+  width: 100%;
+  background-color: #ddd;
+}
+
+/* container */
+body {
+	margin-bottom: 50px;
+	background: none;
+}
+
+.full {
+  background: url("../img/bg-1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#page-content-wrapper p {
+  padding-top: 50px;
+}
+
+.btn-primary {
+  margin-top: 50px;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #4FC2F7;
+  color: #000;
+  border: none;
+  font-size: 18px;
+}
+
+.btn-primary:hover .active .focus {
+  padding-top: 50px;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #0093c4;
+  color: #000;
+  border: none;
+  font-size: 18px;
+}

@@ -1,0 +1,175 @@
+/* fonts */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* text colors */
+h1 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+/* navbar */
+.box {
+  height: 20px;
+  width: 100%;
+  background-color: #BA000D;
+  padding-top: 20px;
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #F44336;
+}
+
+.nav button {
+  margin-top: 2px;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #F44336;
+    border-color: #F44336;
+    float: right;
+}
+
+.btn-default:hover {
+    color: #fff;
+    background-color: #F44336;
+    border-color: #F44336;
+    float: right;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none;
+    outline-offset: none;
+    box-shadow: none;
+}
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    color: #fff;
+    background-color: #F44336;
+    border-color: #F44336;
+    float: right;
+}
+
+
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: #fff;
+    background-color: #F44336;
+    border-color: #F44336;
+}
+
+.btn-default.focus, .btn-default:focus {
+    color: #fff;
+    background-color: #F44336;
+    border-color: #F44336;
+}
+
+/* sidebar */
+.user {
+  height: 325px;
+  width: 100%;
+  background-color: #ddd;
+}
+
+/* container */
+#page-content-wrapper h1 {
+  margin-top: 5px;
+  color: #000;
+  font-size: 25px;
+}
+
+#page-content-wrapper h6 {
+  margin-top: -5px;
+  color: #000;
+}
+
+#page-content-wrapper p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.personage-1 {
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/baan-1.1.png);
+  background-size: auto;
+  background-position: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4FC2F7;
+  border-radius: 50%;
+}
+
+.personage-2 {
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/baan-2.1.png);
+  background-size: auto;
+  background-position: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4FC2F7;
+  border-radius: 50%;
+}
+.personage-3 {
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/baan-3.1.png);
+  background-size: auto;
+  background-position: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4FC2F7;
+  border-radius: 50%;
+}
+.personage-4 {
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/baan-4.1.png);
+  background-size: auto;
+  background-position: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4FC2F7;
+  border-radius: 50%;
+}
+
+.btn-primary {
+  width: 250px;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: #4FC2F7;
+  color: #000;
+  border: none;
+  font-size: 18px;
+}
+
+.btn-primary:hover .active .focus {
+  width: 250px;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: #0093c4;
+  color: #000;
+  border: none;
+  font-size: 18px;
+}
